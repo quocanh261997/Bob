@@ -1,0 +1,38 @@
+{
+  "name": "messenger-bot",
+  "version": "1.0.0",
+  "description": "Messenger Platform QuickStart Demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node --presets es2015 server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vernon99/messenger-quick-start.git"
+  },
+  "keywords": [
+    "messenger",
+    "bot",
+    "quickstart"
+  ],
+  "author": "Mikhail Larionov <mlarionov@fb.com>",
+  "license": "MIT",
+  "homepage": "https://developers.facebook.com/docs/messenger-platform/guides/quick-start",
+  "dependencies": {
+    "node-schedule": "*",
+    "mongodb": "^2.1.8",
+    "watson-developer-cloud": "2.28.1",
+    "request": "^2.72.0",
+    "express": "*",
+    "body-parser": "*",
+    "sync-request": "^4.0.2",
+    "multer": "^1.3.0",
+    "html": "^1.0.0",
+    "fs": "^0.0.2",
+    "https": "^1.0.0",
+    "then-request": "^2.2.0",
+    "babel-register": "^6.24.0",
+    "babel-cli": "^6.24.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
